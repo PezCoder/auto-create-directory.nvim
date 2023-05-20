@@ -52,11 +52,13 @@ use 'pezcoder/nvim-auto-create-directory'
 
 Then run `:PackerInstall` to install the plugin.
 
-Replace `pezcoder` with the GitHub username where the plugin is hosted.
+### Setup
 
-## Usage
+After installing the plugin, add the following line to your `init.lua` file to call the `.setup()` function:
 
-Once the plugin is installed, it will automatically create missing directories when saving a file in a non-existent directory. No additional configuration or commands are required.
+```lua
+require("auto_create_directory").setup()
+```
 
 ## License
 
