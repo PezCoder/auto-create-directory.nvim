@@ -4,6 +4,9 @@
 
 Neovim Auto-Create Directory is a Neovim plugin that automatically **creates non-existent directories** when saving files, ensuring a seamless editing experience.
 
+## Demo
+[![asciicast](https://asciinema.org/a/fSfSx3sUGHfMzEHGc1M6FbvZP.png)](https://asciinema.org/a/fSfSx3sUGHfMzEHGc1M6FbvZP)
+
 ### VIM's default behaviour
 <img src="./before-error.png" />
 
@@ -27,7 +30,7 @@ The plugin handles this behaviour by default implicitly, so you don't need to wo
 Add the following line to your `init.vim`:
 
 ```vim
-Plug 'pezcoder/auto-create-directory.vim'
+Plug 'pezcoder/auto-create-directory.nvim'
 ```
 
 Then run `:PlugInstall` to install the plugin.
