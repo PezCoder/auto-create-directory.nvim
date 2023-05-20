@@ -27,7 +27,7 @@ The plugin handles this behaviour by default implicitly, so you don't need to wo
 Add the following line to your `init.vim`:
 
 ```vim
-Plug 'pezcoder/nvim-auto-create-directory'
+Plug 'pezcoder/auto-create-directory.vim'
 ```
 
 Then run `:PlugInstall` to install the plugin.
@@ -37,7 +37,7 @@ Then run `:PlugInstall` to install the plugin.
 Add the following line to your `init.vim`:
 
 ```vim
-call dein#add('pezcoder/nvim-auto-create-directory')
+call dein#add('pezcoder/auto-create-directory.nvim')
 ```
 
 Then run `:call dein#install()` to install the plugin.
@@ -47,7 +47,7 @@ Then run `:call dein#install()` to install the plugin.
 Add the following line to your `init.lua`:
 
 ```lua
-use 'pezcoder/nvim-auto-create-directory'
+use 'pezcoder/auto-create-directory.nvim'
 ```
 
 Then run `:PackerInstall` to install the plugin.
@@ -57,7 +57,7 @@ Then run `:PackerInstall` to install the plugin.
 After installing the plugin, add the following line to your `init.lua` file to call the `.setup()` function:
 
 ```lua
-require("auto_create_directory").setup()
+require("auto-create-directory").setup()
 ```
 
 ## License
